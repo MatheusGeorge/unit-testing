@@ -14,10 +14,10 @@ import static org.mockito.Mockito.when;
 public class SomeBusinessMockTest {
 
     @InjectMocks
-    SomeBusinessImpl business;
+    private SomeBusinessImpl business;
 
     @Mock
-    SomeDataService dataServiceMock;
+    private SomeDataService dataServiceMock;
 
     @Test
     public void calculateSumUsingDataServiceBasic() {
